@@ -44,7 +44,7 @@ export default function BarChart({
               <div style={{ display: "flex", alignItems: "flex-end", gap: `${gap}px`, height }}>
                 <div style={{
                   width: barWidth, height: h1,
-                  background: `linear-gradient(180deg, ${color}, ${color}88)`,
+                  background: `linear-gradient(180deg, ${color}, color-mix(in srgb, ${color} 40%, transparent))`,
                   borderRadius: "4px 4px 1px 1px",
                   transition: "height 0.8s ease",
                   position: "relative",
@@ -62,7 +62,7 @@ export default function BarChart({
                 {hasSecondary && (
                   <div style={{
                     width: barWidth, height: h2,
-                    background: `linear-gradient(180deg, ${color2}, ${color2}88)`,
+                    background: `linear-gradient(180deg, ${color2}, color-mix(in srgb, ${color2} 40%, transparent))`,
                     borderRadius: "4px 4px 1px 1px",
                     transition: "height 0.8s ease",
                   }} title={`${d.label}: ${d.value2}${unit}`} />

@@ -59,7 +59,7 @@ export default function Home() {
           change={dispChange}
           changeLabel="YoY"
           icon="◇"
-          accentColor="var(--amber-400)"
+          accentColor="var(--blue-400)"
           delay={4}
           sparkline={sparkSeason}
         />
@@ -169,7 +169,7 @@ export default function Home() {
                 <div style={{
                   width: 48, height: barH, borderRadius: "6px 6px 2px 2px",
                   background: isLatest
-                    ? "linear-gradient(180deg, var(--saffron-500), var(--saffron-500)88)"
+                    ? "linear-gradient(180deg, var(--saffron-500), color-mix(in srgb, var(--saffron-500) 40%, transparent))"
                     : "linear-gradient(180deg, var(--navy-500), var(--navy-600))",
                   transition: "height 0.8s ease",
                   border: isLatest ? "1px solid var(--saffron-400)" : "1px solid var(--border-subtle)",

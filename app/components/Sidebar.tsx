@@ -27,7 +27,7 @@ export default function Sidebar() {
             borderRadius: "var(--radius-md)",
             background: "linear-gradient(135deg, var(--saffron-500), var(--gold-500))",
             display: "flex", alignItems: "center", justifyContent: "center",
-            fontWeight: 800, fontSize: "1.1rem", color: "#0a0f1e",
+            fontWeight: 800, fontSize: "1.1rem", color: "#ffffff",
             fontFamily: "var(--font-sans, 'DM Sans', sans-serif)",
           }}>
             N
